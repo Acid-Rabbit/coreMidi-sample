@@ -15,6 +15,9 @@
 		2FA6E0E825658D4100503E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6E0E625658D4100503E28 /* LaunchScreen.storyboard */; };
 		2FA6E0F325658D4200503E28 /* coreMidi_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E0F225658D4200503E28 /* coreMidi_sampleTests.swift */; };
 		2FA6E0FE25658D4200503E28 /* coreMidi_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E0FD25658D4200503E28 /* coreMidi_sampleUITests.swift */; };
+		2FA6E10F25658D7500503E28 /* MidiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E10E25658D7500503E28 /* MidiManager.swift */; };
+		2FA6E11025658D7500503E28 /* MidiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E10E25658D7500503E28 /* MidiManager.swift */; };
+		2FA6E11125658D7500503E28 /* MidiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E10E25658D7500503E28 /* MidiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		2FA6E0F925658D4200503E28 /* coreMidi-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coreMidi-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6E0FD25658D4200503E28 /* coreMidi_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreMidi_sampleUITests.swift; sourceTree = "<group>"; };
 		2FA6E0FF25658D4200503E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA6E10E25658D7500503E28 /* MidiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				2FA6E0DB25658D3F00503E28 /* AppDelegate.swift */,
 				2FA6E0DD25658D3F00503E28 /* SceneDelegate.swift */,
 				2FA6E0DF25658D3F00503E28 /* ViewController.swift */,
+				2FA6E10E25658D7500503E28 /* MidiManager.swift */,
 				2FA6E0E125658D3F00503E28 /* Main.storyboard */,
 				2FA6E0E425658D4100503E28 /* Assets.xcassets */,
 				2FA6E0E625658D4100503E28 /* LaunchScreen.storyboard */,
@@ -260,6 +265,7 @@
 			files = (
 				2FA6E0E025658D3F00503E28 /* ViewController.swift in Sources */,
 				2FA6E0DC25658D3F00503E28 /* AppDelegate.swift in Sources */,
+				2FA6E10F25658D7500503E28 /* MidiManager.swift in Sources */,
 				2FA6E0DE25658D3F00503E28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA6E11025658D7500503E28 /* MidiManager.swift in Sources */,
 				2FA6E0F325658D4200503E28 /* coreMidi_sampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA6E11125658D7500503E28 /* MidiManager.swift in Sources */,
 				2FA6E0FE25658D4200503E28 /* coreMidi_sampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
