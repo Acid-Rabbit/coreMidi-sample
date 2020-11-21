@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F469809256904AF00C3E603 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F469807256904AF00C3E603 /* LogTableViewCell.swift */; };
+		2F46980A256904AF00C3E603 /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F469808256904AF00C3E603 /* LogTableViewCell.xib */; };
 		2FA6E0DC25658D3F00503E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E0DB25658D3F00503E28 /* AppDelegate.swift */; };
 		2FA6E0DE25658D3F00503E28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E0DD25658D3F00503E28 /* SceneDelegate.swift */; };
 		2FA6E0E025658D3F00503E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6E0DF25658D3F00503E28 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F469807256904AF00C3E603 /* LogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewCell.swift; sourceTree = "<group>"; };
+		2F469808256904AF00C3E603 /* LogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
 		2FA6E0D825658D3F00503E28 /* coreMidi-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coreMidi-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6E0DB25658D3F00503E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA6E0DD25658D3F00503E28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,9 +109,11 @@
 			children = (
 				2FA6E0DB25658D3F00503E28 /* AppDelegate.swift */,
 				2FA6E0DD25658D3F00503E28 /* SceneDelegate.swift */,
-				2FA6E0DF25658D3F00503E28 /* ViewController.swift */,
 				2FA6E10E25658D7500503E28 /* MidiManager.swift */,
+				2FA6E0DF25658D3F00503E28 /* ViewController.swift */,
 				2FA6E0E125658D3F00503E28 /* Main.storyboard */,
+				2F469807256904AF00C3E603 /* LogTableViewCell.swift */,
+				2F469808256904AF00C3E603 /* LogTableViewCell.xib */,
 				2FA6E0E425658D4100503E28 /* Assets.xcassets */,
 				2FA6E0E625658D4100503E28 /* LaunchScreen.storyboard */,
 				2FA6E0E925658D4100503E28 /* Info.plist */,
@@ -238,6 +244,7 @@
 			files = (
 				2FA6E0E825658D4100503E28 /* LaunchScreen.storyboard in Resources */,
 				2FA6E0E525658D4100503E28 /* Assets.xcassets in Resources */,
+				2F46980A256904AF00C3E603 /* LogTableViewCell.xib in Resources */,
 				2FA6E0E325658D3F00503E28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				2FA6E0E025658D3F00503E28 /* ViewController.swift in Sources */,
 				2FA6E0DC25658D3F00503E28 /* AppDelegate.swift in Sources */,
 				2FA6E10F25658D7500503E28 /* MidiManager.swift in Sources */,
+				2F469809256904AF00C3E603 /* LogTableViewCell.swift in Sources */,
 				2FA6E0DE25658D3F00503E28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
